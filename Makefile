@@ -1,5 +1,5 @@
 CC      := gcc
-CFLAGS  := -std=c11 -Iinclude -g #-Wall -Wextra -Wpedantic -std=c11 -Iinclude -g
+CFLAGS  := -Wall -Wextra -Wpedantic -std=c11 -Iinclude -g -Wno-newline-eof -Wno-empty-translation-unit
 LDFLAGS :=
 
 TARGET  := myc
@@ -27,4 +27,7 @@ run: $(TARGET)
 	./$(TARGET)
 
 clean:
-	rm -rf $(OBJ_DIR) $(TARGET)
+	@echo "  CC      build/"
+	@rm -rf $(OBJ_DIR)
+	@echo "  CC      myc"
+	@rm -rf $(TARGET)
