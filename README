@@ -1,0 +1,44 @@
+Compiler Pipeline:
+
+    Source Code
+        |
+        v
+      Lexer -----------+
+        |              |
+      Tokens           |
+        |              |
+        v              |
+      Parser ----------+
+        |              |
+       AST             |
+        |              |
+        v              |
+  Semantic Analysis ---+
+        |              |
+    Typed AST          |
+        |              |
+        v              |
+     Codegen ----------+
+        |
+    Native Code
+        |
+        v
+      Linker
+        |
+        v
+    Executable
+
+
+  Diagnostics:
+
+    Lexer  --------\
+    Parser ---------\
+    Sema ------------> Diagnostics
+    Codegen --------/
+
+  Diagnostics reports:
+    - Errors
+    - Warnings
+    - Source location
+    - Line / column
+    - Error messages
