@@ -1,1 +1,7 @@
-#include "common/string.h"
+/*
+ * common/string.c
+ *
+ * String utilities implementation. 
+ */
+
+#include "../../include/common/string.h"
