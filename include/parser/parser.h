@@ -1,0 +1,4 @@
+#ifndef MYC_PARSER_PARSER_H
+#define MYC_PARSER_PARSER_H
+
+#endif /* MYC_PARSER_PARSER_H */

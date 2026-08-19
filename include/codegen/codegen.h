@@ -1,0 +1,4 @@
+#ifndef MYC_CODEGEN_CODEGEN_H
+#define MYC_CODEGEN_CODEGEN_H
+
+#endif /* MYC_CODEGEN_CODEGEN_H */

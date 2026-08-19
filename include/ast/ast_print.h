@@ -1,0 +1,4 @@
+#ifndef MYC_AST_AST_PRINT_H
+#define MYC_AST_AST_PRINT_H
+
+#endif /* MYC_AST_AST_PRINT_H */

@@ -1,0 +1,4 @@
+#ifndef MYC_LEXER_TOKEN_H
+#define MYC_LEXER_TOKEN_H
+
+#endif /* MYC_LEXER_TOKEN_H */

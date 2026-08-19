@@ -1,0 +1,4 @@
+#ifndef MYC_SOURCE_SOURCE_H
+#define MYC_SOURCE_SOURCE_H
+
+#endif /* MYC_SOURCE_SOURCE_H */

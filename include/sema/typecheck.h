@@ -1,0 +1,4 @@
+#ifndef MYC_SEMA_TYPECHECK_H
+#define MYC_SEMA_TYPECHECK_H
+
+#endif /* MYC_SEMA_TYPECHECK_H */

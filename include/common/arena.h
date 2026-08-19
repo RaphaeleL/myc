@@ -1,0 +1,4 @@
+#ifndef MYC_COMMON_ARENA_H
+#define MYC_COMMON_ARENA_H
+
+#endif /* MYC_COMMON_ARENA_H */
