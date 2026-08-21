@@ -1,0 +1,9 @@
+#import "IO";
+#import "String";
+#import "List";
+
+def main(arguments: List[string]) -> int {
+    io.print("Hello, World!\n");
+
+    return 0;
+}
